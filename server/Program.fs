@@ -49,7 +49,8 @@ module ServerApplication =
         builder
             .AllowAnyOrigin()
             .AllowAnyMethod()
-            .WithHeaders [|"kumetrix"|]
+            .AllowAnyHeader()
+            //.WithHeaders [|"kumetrix"|]
         |> ignore
 
 
@@ -57,7 +58,8 @@ module ServerApplication =
         application {
             use_json_settings configuredJsonSettings
             use_endpoint_router appRouter
-            use_cors "CORS_policy" configure_cors
+            use_static "wwwroot"
+            //use_cors "CORS_policy" configure_cors
             use_gzip
         }
 
