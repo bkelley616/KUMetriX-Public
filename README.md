@@ -105,3 +105,67 @@ run Pack
 
 More info at [Template Repo](https://github.com/Zaid-Ajaj/SAFE.Simplified)
 <br><br>
+
+
+## References:
+
+#### Overall Tech stack 
+<ul>
+<li>https://safe-stack.github.io/</li>
+</ul>
+
+#### Database/Data Access layer
+<ul>
+<li>https://docs.mongodb.com/</li>
+<li>https://medium.com/@mukund.sharma92/cruding-in-f-with-mongodb-e4699d1ac17e 
+</li>
+<li>https://github.com/mongodb/mongo-csharp-driver</li>
+<li>https://github.com/tkellogg/MongoDB.FSharp </li>
+</ul>
+
+#### External Stock API
+<ul>
+<li>https://marketstack.com/documentation</li>
+</ul>
+
+#### Logo Creator
+<ul>
+<li>https://www.canva.com/create/logos/</li>
+</ul>
+
+#### Server
+<ul>
+<li>https://saturnframework.org/explanations/overview.html</li>
+</ul>
+
+#### Client
+<ul>
+<li>https://github.com/Zaid-Ajaj/Feliz</li>
+<li>https://zaid-ajaj.github.io/Feliz/ </li>
+<li>https://zaid-ajaj.github.io/the-elmish-book/#/</li>
+</ul>
+
+#### Validators
+<ul>
+<li>https://www.softwarepark.cc/blog/2019/12/8/functional-validation-in-f-using-applicatives</li>
+</ul>
+
+#### App/Build Template
+<ul>
+<li>https://github.com/Zaid-Ajaj/SAFE.Simplified</li>
+</ul>
+
+#### Home Svg Animation
+<ul>
+<li>https://loading.io/background/m-valley/</li>
+</ul>
+
+#### Icon Library
+<ul>
+<li>https://fontawesome.com/icons?m=free</li>
+</ul>
+
+#### CSS Library
+<ul>
+<li>https://bulma.io/</li>
+</ul>
