@@ -20,6 +20,9 @@ A stock data web app built using the [Safe Stack](https://safe-stack.github.io/)
 
 ## Video Demo:
 
+https://user-images.githubusercontent.com/24596353/115722179-bab1f980-a34c-11eb-83bf-abf169b13216.mp4
+
+
 <br><br>
 
 ## Set up:
