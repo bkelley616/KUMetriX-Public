@@ -1,5 +1,7 @@
 # KUMetriX
 
+Demo Site: https://kumetrix.azurewebsites.net/
+
 A stock data web app built using the [Safe Stack](https://safe-stack.github.io/) with the [Feliz SAFE Template](https://github.com/Zaid-Ajaj/SAFE.Simplified) that features:
 
 <ul>
