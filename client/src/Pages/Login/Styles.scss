@@ -1,0 +1,83 @@
+@import "../../styles/constants.scss";
+
+.loginBackground {
+  width: 100vw;
+  background-image: url(../../imgs/background/LoginBackgroundDark.svg);
+  background-size: cover;
+}
+
+.loginLogo{
+  width: 60%;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.button.loginButton{
+  color: white ;
+  border: $app-purple-medium; 
+  background-color: $app-purple-medium;
+  &:hover {
+    color: white;
+    background-color: $app-purple-dark;
+  }
+
+  &:focus {
+    color: white;
+    background-color: $app-purple-dark;
+  }
+
+  &:disabled {
+    background-color: $app-purple-dark;
+  }
+}
+
+.loginLink{
+  color: $app-blue-medium;
+  text-decoration: underline;
+  &:hover {
+    color: $app-indigo-dark;
+    text-decoration: none;
+  }
+
+  &:focus {
+    color: $app-indigo-dark;
+    text-decoration: none;
+  }
+}
+
+.button.createAccountButton{
+  color: white ;
+  border: $app-purple-medium; 
+  background-color: $app-purple-medium;
+  &:hover {
+    color: white;
+    background-color: $app-purple-dark;
+  }
+
+  &:focus {
+    color: white;
+    background-color: $app-purple-dark;
+  }
+
+  &:disabled {
+    background-color: $app-purple-dark;
+  }
+}
+
+
+
+
+.signUpLink{
+  color: $app-blue-medium;
+  text-decoration: underline;
+  &:hover {
+    color: $app-indigo-dark;
+    text-decoration: none;
+  }
+
+  &:focus {
+    color: $app-indigo-dark;
+    text-decoration: none;
+  }
+}

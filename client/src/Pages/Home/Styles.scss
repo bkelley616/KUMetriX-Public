@@ -1,0 +1,43 @@
+@import "../../styles/constants.scss";
+
+.homeBackground {
+  width: 100vw;
+  background-image: url(../../imgs/background/HomeBackgroundDark.svg);
+  background-size: cover;
+
+}
+
+.button.github-link{
+  border: $app-text-medium; 
+  color: white ;
+  background-color: $app-purple-medium;
+
+  &:hover {
+    color: white;
+    background-color: $app-purple-dark;
+  }
+
+  &:focus {
+    color: white;
+    background-color: $app-purple-dark;
+  }
+}
+
+.button.goToLoginButton{
+  color: white ;
+  border: $app-purple-medium; 
+  background-color: $app-purple-medium;
+  &:hover {
+    color: white;
+    background-color: $app-purple-dark;
+  }
+
+  &:focus {
+    color: white;
+    background-color: $app-purple-dark;
+  }
+}
+
+.logoImg{
+  width: 1000px;
+}

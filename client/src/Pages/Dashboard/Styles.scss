@@ -1,0 +1,48 @@
+@import "../../styles/constants.scss";
+
+.app-dashboard{
+  font-size: 28px;
+  min-height: 100vh;
+}
+
+.app-market-overview-header{
+  margin-top: 2rem;
+}
+
+.card.app-stock-card{
+  width: 350px;
+  height: 150px;
+  &:hover {
+    cursor: pointer;
+    transform: translate3D(0,-5px,0) scale(1.01);
+    transition: all .4s ease; 
+  }
+
+}
+
+.card.app-small-stock-card{
+  width: 350px;
+  height: 130px;
+  &:hover {
+    cursor: pointer;
+    transform: translate3D(0,-5px,0) scale(1.01);
+    transition: all .4s ease; 
+  }
+  .card-content{
+    padding: 1rem;
+  }
+}
+
+.is-divider.app-divider{
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.app-no-pins-text{
+  white-space: pre-line
+}
+
+.app-loading-spinner {
+  width: 100%;
+  text-align: center;
+}
